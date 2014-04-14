@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "Index";
+    }
+
+@{
+    AddictionOfPhoto.Entity.Gallery ss = ViewData["model"] as AddictionOfPhoto.Entity.Gallery;
+    AddictionOfPhoto.Entity.TopicGallery topicGallery = ViewData["topicGallery"] as AddictionOfPhoto.Entity.TopicGallery;
+    
+<h1>@ss.Title</h1>
+<h1>@topicGallery.TopicId</h1>
+
+    }
+
+
+<h2>Index</h2>
